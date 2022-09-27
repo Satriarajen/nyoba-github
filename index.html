@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Satria Rajendra</title>
+
+    <!-- bootsrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+
+    <style>
+      *{
+        font-family: poppins;
+      }
+      
+      section{
+        margin-top: 3rem;
+      }
+
+      footer{
+        background-color: antiquewhite;
+      }
+
+      footer{
+        background-color: #FF8AAE;
+      }
+
+      .card {
+        box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+      }
+
+      .teksSatria{
+        color: #2B7A78;
+      }
+
+      .animate__animated animate__fadeIn{
+        animation-delay: 4ms;
+      }
+
+      #ColourBotton{
+        background-color: #2B7A78;
+      }
+
+      #ColourBotton:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        box-shadow: 0 0 30px rgba(33,33,33,.2);
+      }
+
+      #headerfix:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.05);
+      }
+
+      #nav{
+        background-color: #17242A;
+      }
+
+      #nav a{
+        color: #DEF2F1;
+      }
+
+      #boxe1{
+        background-color: #2B7A77;
+      }
+
+      #boxbox{
+        background-color: #17242A;
+      }
+
+      #boxbox:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.05);
+        box-shadow: 0 0 30px rgba(33,33,33,.2);
+      }
+      #boxe1:hover{
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        box-shadow: 0 0 30px rgba(33,33,33,.2);
+      } 
+      #hike{
+        background-color: #DEF2F1;
+      }
+
+      #kartu:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(33,33,33);
+      }
+
+    </style>
+    <!-- end of CSS -->
+  </head>
+  <body id="home" onload='document.form1.text1.focus()'>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" id="nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">Satria Rajendra</a>
+        <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#whatIDo">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project  ">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- showcase -->
+    <section class="p-5 p-lg-0 pt-lg-5 text-center text-sm-start" style="background-color: #DEF2F1;">
+        <div class="container">
+            <div class="d-sm-flex pt-5 align-items-center justify-content-between">
+                <div>
+                    <h3>Hello there,</h3>
+                    <h1>This is <span class="teksSatria">
+                        Satria Rajendra
+                    </span></h1>
+                    <p class="lead my-4">
+                       UI UX designer | Front End Developer
+                    </p>
+                    <button class="btn btn-lg text-light" id="ColourBotton">
+                      Get Touch With Me
+                    </button>
+                </div>
+                <img 
+                class="img-fluid w-50 d-none d-sm-block" id="headerfix"
+                src="img/Frame 25.png"
+                alt="showcase">
+            </div>
+        </div>
+    </section>
+
+        <!-- Boxes -->
+        <section class="p-5" id="whatIDo">
+          <div class="container">
+            <div class="row text-center g-4">
+              <h2 data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">About Me</h2>
+              <p class="text-center text-secondary lead" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250">
+                Muhammad Satria Rajendra, akrab dipanggil Satria. Lahir di Bandung pada 29 Mei 2003. Senang belajar pemrograman, desain pengalaman pengguna dan menyelami ilmu teknologi. Saat ini sedang menempuh studi di Universitas Pendidikan Indonesia jurusan Pendidikan Ilmu Komputer.</p>
+              
+                <h2 class="text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250">What I Do?</h2>
+
+              <div class="col-md">
+                <div class="card text-light" id="boxbox" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                  <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                      <i class="bi bi-code"></i>
+                    </div>
+                    <h3 class="card-title mb-3">CODE</h3>
+                    <p class="card-text">
+                      Build the front-end portion of websites using web languages such as HTML, CSS, Javascript and Bootstrap framework.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card text-light" id="boxe1" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+                  <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                      <i class="bi bi-brush"></i>
+                    </div>
+                    <h3 class="card-title mb-3">DESIGN</h3>
+                    <p class="card-text">
+                      Create user-friendly interfaces that enable users to understand how to use complex technical products using Figma.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="card text-light" id="boxbox" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                  <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                      <i class="bi bi-tree"></i>
+                    </div>
+                    <h3 class="card-title mb-3">HIKE</h3>
+                    <p class="card-text">
+                      walking in nature as a recreational activity, Especially during holiday. hiking is an exercise that promotes physical fitness.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+    <h2 class="text-center pt-5" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" >My projects</h2>
+    <p class="text-center text-secondary lead" data-aos="fade-up" data-aos-duration="500" data-aos-delay="250">With my team, we make awesome UI UX design like ajarin & e-LU.</p>
+
+    <!-- Description section -->
+    <section id="hike" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="img/ajarin.svg" class="img-fluid" alt="hiker" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" >
+          </div>
+          <div class="col-md p-5">
+            <h2 data-aos="fade-up" data-aos-duration="500" data-aos-delay="350">ajarin</h2>
+            <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus nemo vero doloribus nisi. Doloribus pariatur delectus inventore omnis voluptate facere distinctio vero dolores voluptatem nobis, aliquid qui odit deserunt.
+            </p>
+            <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed exercitationem quam totam, deleniti soluta fugit voluptates debitis minus animi rerum dolore provident. Odio recusandae ducimus quas debitis, velit necessitatibus tempora.
+            </p>
+            <a href="#" class="btn btn-light mt-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>E-Learning UPI</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus nemo vero doloribus nisi. Doloribus pariatur delectus inventore omnis voluptate facere distinctio vero dolores voluptatem nobis, aliquid qui odit deserunt.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed exercitationem quam totam, deleniti soluta fugit voluptates debitis minus animi rerum dolore provident. Odio recusandae ducimus quas debitis, velit necessitatibus tempora.
+            </p>
+          </div>
+          <div class="col-md">
+            <img src="img/nature.svg" class="img-fluid" alt="hiker">
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- end of description section -->
+
+    <!-- Project -->
+    <section id="project">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col mb-3" data-aos="fade-up" data-aos-duration="800"> 
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3" data-aos="zoom-in-up" data-aos-duration="1300" data-aos-offset="250">
+            <div class="card" id="kartu">
+              <img src="img/satria.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <p class="card-text">Curug Siliwangi 1700 MDPL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="zoom-in-up" data-aos-duration="1300" data-aos-offset="250" data-aos-delay="100">
+            <div class="card" id="kartu">
+              <img src="img/Sumbing.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <p class="card-text">Gn. Sumbing 3371 MDPL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="zoom-in-up" data-aos-duration="1300" data-aos-offset="250" data-aos-delay="125">
+            <div class="card" id="kartu">
+              <img src="img/cikuray.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <p class="card-text">Gn. Cikuray 2821 MDPL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="zoom-in-up" data-aos-duration="1300" data-aos-offset="250" data-aos-delay="125">
+            <div class="card" id="kartu">
+              <img src="img/guntur.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <p class="card-text">Gn. Cikuray 2821 MDPL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="zoom-in-up" data-aos-duration="1300" data-aos-offset="250" data-aos-delay="125">
+            <div class="card" id="kartu">
+              <img src="img/Manglayang.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <p class="card-text">Gn. Manglayang 1818 MDPL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos="zoom-in-up" data-aos-duration="1300" data-aos-offset="250" data-aos-delay="125">
+            <div class="card" id="kartu">
+              <img src="img/Bendera.jpg" class="card-img-top" alt="">
+              <div class="card-body text-center">
+                <p class="card-text">Gn. Bendera 1403 MDPL</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- akhir project -->
+    <!--Form-->
+
+    <section id="contact">
+      <div class="container mb-5">
+        <div class="row mb-3">
+          <div class="col text-center">
+            <h2>Contact me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <form name="ValidateEmail" onsubmit="return ValidateEmail()" method="post">
+              <div class="mb-3">
+                  <label for="name">name</label>
+                  <input type="text" class="form-control" id="name" name="formfield">
+                </div>
+    
+            <div class="mb-3">
+              <label for="email">email</label>
+              <input type="email" class="form-control" id="email" name="formfield">
+            </div>
+    
+            <div class="mb-3">
+              <label for="website">pesan</label>
+              <textarea class="form-control" id="website"  name="formfield"></textarea>
+            </div>
+            
+            <!--Button-->
+            <button type="submit" class="btn btn-dark mt-3" onclick="ValidateEmail(document.form1.text1)">Submit</button>
+            <button type="reset" class="btn btn-dark  mt-3">Reset</button>
+    
+          </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function ValidateEmail(inputText)
+      {
+      var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(inputText.value.match(mailformat)) {
+          alert("Valid email address!");
+          document.form1.text1.focus();
+          return true;
+        } else {
+          alert("You have entered an invalid email address!");
+          document.form1.text1.focus();
+          return false;
+        }
+      }
+      
+    </script>
+
+    <!-- Footer -->
+        <!-- Footer -->
+        <footer class="p-4 mt-4 bg-dark text-white text-center position-relative">
+          <div class="container">
+            <div class="container mb-3">
+              <a href="#"><i class="bi bi-twitter text-light mx-2"></i></a>
+              <a href="#"><i class="bi bi-facebook text-light mx-2"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-light mx-2"></i></a>
+              <a href="#"><i class="bi bi-instagram text-light mx-2"></i></a>
+            </div>
+            <p class="lead">Copyright &copy; 2022 Satria Rajendra</p>
+          </div>
+        </footer>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
